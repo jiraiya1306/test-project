@@ -8,7 +8,7 @@ import { Contact } from "./pages/contact";
 
 function App() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-nph-screen bg-white">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

@@ -1,7 +1,10 @@
 import React from 'react';
 import { Calendar, User, ArrowRight } from 'lucide-react';
 
+
+
 export function Blog() {
+  
   const blogPosts = [
     {
       id: 1,
