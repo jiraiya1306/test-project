@@ -1,10 +1,9 @@
-import React from 'react';
-import { Routes, Route } from 'react-router-dom';
-import { Navbar } from './components/Navbar';
-import { Home } from './pages/Home';
-import { Blog } from './pages/Blog';
-import { Contact } from './pages/Contact';
-import { ServiceDetails } from './pages/ServiceDetails';
+import { Home, Contact } from "lucide-react";
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+import { Navbar } from "./components/navbar";
+import { Blog } from "./pages/blogs";
+import { ServiceDetails } from "./pages/services";
 
 function App() {
   return (
